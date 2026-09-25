@@ -17,6 +17,20 @@
             <a class="navbar-brand" href="#">
                 AVENTURA NATURAL
             </a>
+
+            <button class="navbar-toggler"
+            type="button"  
+            data-bs-toggle="collapse"        
+            data-bs-target="#menu">   
+            <span class="navbar-toggler-icon">    
+            </span>
+          </button>
+          <div class="collapse navbar-collapse"
+          id="menu">
+          <!-- links do menu aqui -->
+        
+
+
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="#">
                     Início</a>
@@ -25,6 +39,7 @@
                 <a class="nav-link" href="#">
                     sobre nós</a>
             </div>
+        </div>
         </div>
     </nav>
 
@@ -121,9 +136,13 @@
               </span>
 
           
-          <p class="card-text">é um esporte e uma atividade física que consiste em subir paredes de rocha, montanhas ou estruturas artificiais utilizando o próprio corpo.</p>
+          <p class="card-text">É um esporte e uma atividade física que consiste em subir paredes de rocha, montanhas ou estruturas artificiais utilizando o próprio corpo.</p>
           <br>
-          <a href="#" class="btn btn-primary">Entrar</a>
+          <button class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#modalpedra">
+  Saiba mais
+</button>
         </div>
       </div>
   </div>
@@ -145,7 +164,11 @@
           <p class="card-text">É uma atividade incrível que pode ser feita em rios de águas cristalinas e piscinas naturais repletas de vida marinha</p>
           <br>
           <br>
-          <a href="#" class="btn btn-primary">Entrar</a>
+   <button class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#modalBonito">
+  Saiba mais
+</button>
         </div>
       </div>
   </div>
@@ -166,15 +189,145 @@
         
           <p class="card-text">Trilha é um caminho sem pavimentação localizado em áreas naturais ou rurais, usado para caminhadas, contato com a natureza e ecoturismo</p>
           <br>
-          <a href="#" class="btn btn-primary">Entrar</a>
+    <button class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#modalnado">
+  Saiba mais
+            </button>
         </div>
       </div>
   </div>
 </div>
 
+<div class="modal fade" id="modalBonito">
+    <div class="modal-dialog"> 
+      <div class="modal-content">
+        <div class="modal-header"> 
+          <h5 class="modal-title">Mato Grosso</h5> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="IMG/bonitoMT.jpg">
+          <p>Bonito, em Mato Grosso do Sul, é a capital brasileira do ecoturismo, famosa por seus rios de águas cristalinas, flutuações, grutas e cachoeiras.</p>  
+        </div>
+        <div class="modal-footer">  
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <div class="container my-5">
+
+    <div class="modal fade" id="modalpedra">
+        <div class="modal-dialog"> 
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">São Paulo</h5> 
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+            </div> 
+            <div class="modal-body"> 
+              <img src="IMG/pedradosantuario.jfif">
+              <p>Pedra Bela é uma charmosa estância turística e a cidade mais rural do estado de São Paulo, localizada na Serra da Mantiqueira a cerca de 117 km da capital.</p>  
+            </div>
+            <div class="modal-footer">  
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container my-5">
+
+        <div class="modal fade" id="modalnado">
+            <div class="modal-dialog"> 
+              <div class="modal-content">
+                <div class="modal-header"> 
+                  <h5 class="modal-title">São Paulo</h5> 
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+                </div> 
+                <div class="modal-body"> 
+                  <img src="IMG/jaragua.jpg">
+                  <p>O Parque Estadual do Jaraguá abriga o Pico do Jaraguá, o ponto mais alto da cidade de São Paulo, com 1.135 metros de altitude.</p>  
+                </div>
+                <div class="modal-footer">  
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="container my-5">
     
+            <div class="container my-5">
+                <h2 class="text-center mb-4">             
+                  Dicas de segurança        
+                </h2>           
+                <div class="accordion" id="faq">         
+               
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">             
+                  <button class="accordion-button"           
+                    data-bs-toggle="collapse"            
+                    data-bs-target="#pergunta1">           
+                    como melhorar seu desempenho na escalada?    
+                  </button>            
+                </h2>            
+                <div id="pergunta1"           
+                  class="accordion-collapse collapse"           
+                  data-bs-parent="#faq">            
+                  <div class="accordion-body">            
+                    Para melhorar o seu desempenho e garantir a segurança na escalada, priorize a técnica com as pernas em vez de usar apenas a força dos braços.            
+                  </div>            
+                </div>
+              </div> 
+            <br>
+            
+              <div class="accordion-item">
+                <h2 class="accordion-header">             
+                  <button class="accordion-button"           
+                    data-bs-toggle="collapse"            
+                    data-bs-target="#pergunta1">           
+                    Nados naturais são iguais nados em piscina?            
+                  </button>            
+                </h2>            
+                <div id="pergunta1"           
+                  class="accordion-collapse collapse"           
+                  data-bs-parent="#faq">            
+                  <div class="accordion-body">            
+                    seja no mar, em rios, lagos ou cachoeiras, é uma experiência incrível e libertadora, mas exige cuidados muito diferentes da piscina.            
+                  </div>            
+                </div>
+              </div> 
+            <br>
+              <div class="accordion-item">
+                <h2 class="accordion-header">             
+                  <button class="accordion-button"           
+                    data-bs-toggle="collapse"            
+                    data-bs-target="#pergunta1">           
+                    Como fazer uma trilha com segurança?       
+                  </button>            
+                </h2>            
+                <div id="pergunta1"           
+                  class="accordion-collapse collapse"           
+                  data-bs-parent="#faq">            
+                  <div class="accordion-body">            
+                    Para fazer uma trilha no mato com segurança e conforto, o mais importante é planejar o trajeto com antecedência e usar roupas e calçados adequados.            
+                  </div>            
+                </div>
+              </div> 
+            
+            
+            
+            
+            </div>
+              </div>
+
+
+
+
+    <!--alerta-->
      <div class="alert alert-warning">
      Precisa de ajuda?
      </div>
@@ -193,6 +346,7 @@
     Começar minha aventura
   </button>
 
+  
 </section>
 
 </body>
