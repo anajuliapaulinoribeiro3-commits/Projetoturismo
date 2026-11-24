@@ -158,3 +158,21 @@
   /* Remove sombra padrão */
   box-shadow: none;
 }
+
+#muu {
+  background-image: url("../IMG/categorias.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1271.5px;
+}
+
+#vv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
