@@ -164,8 +164,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
-  width: 1271.5px;
+  height: 480px;
+  width: 1256px;
 }
 
 #vv {
@@ -175,4 +175,12 @@
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+}
+#BB {
+  background-image: url("../IMG/eco2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 1256px;
 }

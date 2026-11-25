@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,168 +7,286 @@
     <title>AVENTURA NATURAL</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-     <link href="./CSS/STYLE.CSS" rel="stylesheet">
+    <link href="./CSS/STYLE.CSS" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg
-    bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="categorias.html">
                 EXPLORE+
             </a>
 
             <button class="navbar-toggler"
-            type="button"  
-            data-bs-toggle="collapse"        
-            data-bs-target="#menu">   
-            <span class="navbar-toggler-icon">    
-            </span>
-          </button>
-          <div class="collapse navbar-collapse"
-          id="menu">
-          <!-- links do menu aqui -->
-        
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="menu">
+                <!-- links do menu aqui -->
 
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="index.html">
-                    Início</a>
-                <a class="nav-link" href="categorias.html">
-                    Categorias</a>
-                <a class="nav-link" href="sobrenos.html">
-                    sobre nós</a>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">
+                        Início</a>
+                    <a class="nav-link" href="categorias.html">
+                        Categorias</a>
+                    <a class="nav-link" href="sobrenos.html">
+                        Sobre nós</a>
+                        <a class="nav-link" href="ajuda.html">
+                            Ajuda</a>
+                </div>
             </div>
         </div>
-        </div>
-    </nav>    
-    
+    </nav>
+
     <div id="muu">
-    <div class="carousel-caption" id="vv">
-        
-        <h2>Explore nossas categorias</h2>
-        <p>Descubra lugares incriveis, conecte-se com a natureza e encontre sua próxima aventura.</p>
-    </div></div>
-       
+        <div class="carousel-caption" id="vv">
+            <h2>Explore nossas categorias</h2>
+            <p>Descubra lugares incriveis, conecte-se com a natureza e encontre sua próxima aventura.</p>
+        </div>
+    </div>
+     <br>
     <h2 class="text-center">
         Escolha sua aventura
-       </h2>
-       <br>
+    </h2>
+    <br>
 
-       <p class="text-center">
+    <p class="text-center">
         Explore diferentes destinos e experiências. Seja para relaxar, se aventurar ou conhecer paisagens incríveis, temos uma categoria perfeita para sua próxima viagem.
-     </p>
-     <br>
-     <br>
+    </p>
+    <br>
+    <br>
 
+    <div class="container">
+        <div class="row justify-content-center gy-4">
 
-     <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-              <img src="./IMG/objetivo.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-      
-                  <h5 class="card-title">
-                      Praias
-                    </h5>
-                
-                <p class="card-text">Aproveite praias paradisíacas, águas cristalinas, paisagens costeiras e momentos de descanso junto ao mar.</p>
-                <br>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./IMG/praia.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Praias
+                        </h5>
+                        <p class="card-text">Aproveite praias paradisíacas, águas cristalinas, paisagens costeiras e momentos de descanso junto ao mar.</p>
+                        <br>
+                        <button class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalpraia">
+                        Saiba mais
+                      </button>
+                      <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./IMG/montanhas.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Montanhas
+                        </h5>
+                        <p class="card-text">Descubra montanhas impressionantes, cenários naturais, clima agradável e vistas incríveis para apreciar.</p>
+                        <br>
+                        <button class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalmontanha">
+                        Saiba mais
+                      </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./IMG/cachoeira.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Cachoeiras
+                        </h5>
+                        <p class="card-text">Conheça cachoeiras, piscinas naturais e lugares perfeitos para se refrescar e relaxar em meio à natureza.</p>
+                        <br>
+                        <button class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalcachoeira">
+                        Saiba mais
+                      </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+           <br>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./IMG/tri.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Trilhas
+                        </h5>
+                        <p class="card-text">Caminhe por trilhas naturais, explore florestas e descubra caminhos que proporcionam experiências inesquecíveis.</p>
+                        <br>
+                        <button class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modaltrilha">
+                        Saiba mais
+                      </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./IMG/camp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Camping
+                        </h5>
+                        <p class="card-text">Viva momentos especiais ao ar livre, acampe sob as estrelas e aproveite a tranquilidade da natureza.</p>
+                        <br>
+                        <br>
+                        <button class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalcamping">
+                        Saiba mais
+                      </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  
+    <div class="modal fade" id="modalpraia">
+        <div class="modal-dialog"> 
+          <div class="modal-content">
+            <div class="modal-header"> 
+              <h5 class="modal-title">As praias mais famosas do Brasil</h5> 
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+            </div> 
+            <div class="modal-body"> 
+              <p>Baía do Sancho (Fernando de Noronha, PE): Frequentemente apontada entre as praias mais bonitas do mundo, com falésias e mar cristalino.</p>
+              <p>Porto de Galinhas (Ipojuca, PE): Destaque pelos passeios de jangada e piscinas naturais formadas nos recifes.</p>
+              <p>Maragogi (AL): Conhecida pelas águas claras e bancos de corais, com praias como Antunes.</p>
+              <p>Jericoacoara (CE): Famosa pelas dunas, lagoas e pelo pôr do sol.</p>   
+              <p>Praia do Espelho (Trancoso / Porto Seguro, BA): Conhecida pelas falésias, coqueirais e piscinas naturais na maré baixa.</p>
+              <p>Maresias (São Sebastião, SP): Uma das praias mais conhecidas do litoral paulista, popular pelo surfe e pela vida noturna.</p>
+            </div>
+            <div class="modal-footer">  
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container my-5">
+
+        <div class="modal fade" id="modalmontanha">
+            <div class="modal-dialog"> 
+              <div class="modal-content">
+                <div class="modal-header"> 
+                  <h5 class="modal-title">As montanhas e picos</h5> 
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+                </div> 
+                <div class="modal-body"> 
+                  <p>Dedo de Deus (Teresópolis, RJ): 1.692 m de altitude, no Parque Nacional da Serra dos Órgãos. Marco histórico do montanhismo brasileiro, com vias técnicas e de dificuldade moderada a difícil.</p>
+                  <p>Pão de Açúcar e Urca (Rio de Janeiro, RJ): Clássicos urbanos em granito com vias tradicionais e esportivas de frente para o mar, muito procurados entre abril e setembro.</p>
+                  <p>Pico das Agulhas Negras (Itatiaia, RJ/MG): Com cerca de 2.798 m, é o ponto mais alto de ambos os estados e exige técnicas de escalada em trechos específicos de acesso ao cume.</p>
+                  <p>Pedra do Baú (São Bento do Sapucaí, SP): Destaque na Serra da Mantiqueira, com vias de escalada em rocha e opções de via ferrata.</p>
+                  <p>Pedra Azul (Domingos Martins, ES): Paredes de granito icônicas com acesso ao cume por via de escalada, sujeita a agendamento prévio e limite diário de visitantes no parque estadual.</p>
+                  <p>Pico Paraná (Campina Grande do Sul / Antonina, PR): 1.877 m, o ponto culminante do Sul do Brasil, com trilhas exigentes e paredes de granito na Serra do Ibitiraquire.</p>  
+                </div>
+                <div class="modal-footer">  
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+                </div>
               </div>
             </div>
-        </div>
+          </div>
+        </section>
+        <div class="container my-5">
 
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./IMG/visao1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-        
-                    <h5 class="card-title">
-                        Montanhas
-                      </h5>
-                  <p class="card-text">Descubra montanhas impressionantes, cenários naturais, clima agradável e vistas incríveis para apreciar.</p>
-                  <br>
-                  <br>
+            <div class="modal fade" id="modalcachoeira">
+                <div class="modal-dialog"> 
+                  <div class="modal-content">
+                    <div class="modal-header"> 
+                      <h5 class="modal-title">Algumas das cachoeiras mais famosas do Brasil</h5> 
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+                    </div> 
+                    <div class="modal-body"> 
+                      <p>
+                        Cachoeira Santa Bárbara (Cavalcante, GO):                     
+                        Uma das mais procuradas da Chapada dos Veadeiros pelo poço azul-turquesa transparente.</p>
+                      <p>
+                        Cachoeira do Buracão (Ibicoara, BA):              
+                        Destaque da Chapada Diamantina, famosa por desaguar dentro de um cânion com cerca de 85 m a 90 m de altura.</p>
+                      <p>
+                        Cachoeira da Formiga (Mateiros, TO):                      
+                        Clássico do Jalapão para quem quer água cristalina em tom verde-esmeralda e temperatura mais agradável que a de muitas serras.</p>
+                      <p>
+                        Cachoeira Boca da Onça (Bodoquena Bonito, MS):                      
+                        Conhecida pela queda de 156 m (a mais alta do Mato Grosso do Sul) e por um circuito completo de ecoturismo.</p>  
+                    </div>
+                    <div class="modal-footer">  
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+                    </div>
+                  </div>
                 </div>
               </div>
-          </div>
-              
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./IMG/valores1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-        
-                    <h5 class="card-title">
-                        Cachoeiras
-                      </h5>
-                             
-                  <p class="card-text">Conheça cachoeiras, piscinas naturais e lugares perfeitos para se refrescar e relaxar em meio à natureza.</p>
-                  <br>
-                  <br>
-                </div>
-              </div>
-          </div>
+            </section>
+            <div class="container my-5">
 
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./IMG/valores1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-        
-                    <h5 class="card-title">
-                        Trilhas
-                      </h5>
-                             
-                  <p class="card-text">Caminhe por trilhas naturais, explore florestas e descubra caminhos que proporcionam experiências inesquecíveis.</p>
-                  <br>
-                  <br>
-                </div>
-              </div>
-          </div>
+                <div class="modal fade" id="modaltrilha">
+                    <div class="modal-dialog"> 
+                      <div class="modal-content">
+                        <div class="modal-header"> 
+                          <h5 class="modal-title">As trilhas mais famosas do Brasil</h5> 
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+                        </div> 
+                        <div class="modal-body"> 
+                          <p>Travessia Petrópolis–Teresópolis (RJ): Cerca de 30 km (geralmente em 3 dias) pela Serra dos Órgãos, com subidas exigentes e vistas como a Pedra do Sino (2.275 m).</p>
+                          <p>Vale do Pati – Chapada Diamantina (BA): Clássico de trekking por vales, morros e cachoeiras, com pernoites em casas de moradores locais.</p>
+                          <p>Travessia dos Lençóis Maranhenses (MA): Caminhada por dunas de areia clara e lagoas sazonais, com roteiros que costumam durar de 3 a 5 dias</p>
+                          <p>Trilha do Rio do Boi (SC/RS): Percurso de cerca de 14 km (média de 6 horas) margeando e cruzando o rio no interior de cânion na divisa entre Santa Catarina e Rio Grande do Sul.</p>
+                          <p>Meia Volta de Ilhabela (SP): Travessia de cerca de 43 km (2 a 3 dias) por Mata Atlântica, costões, cachoeiras e praias isoladas no litoral norte paulista.</p>
+                          <p>Morro Dois Irmãos e Pedra da Gávea (RJ): Trilhas urbanas famosas no Rio de Janeiro com vistas panorâmicas da cidade e do litoral.</p>
+                          <p>Monte Roraima (RR): Expedição de vários dias até o topo de um tepui na região de fronteira, com formações rochosas únicas.</p>  
+                        </div>
+                        <div class="modal-footer">  
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div class="container my-5">
 
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./IMG/valores1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-        
-                    <h5 class="card-title">
-                        Camping
-                      </h5>
-                             
-                  <p class="card-text">Viva momentos especiais ao ar livre, acampe sob as estrelas e aproveite a tranquilidade da natureza.</p>
-                  <br>
-                  <br>
-                </div>
-              </div>
-          </div>
-
-
-
+                    <div class="modal fade" id="modalcamping">
+                        <div class="modal-dialog"> 
+                          <div class="modal-content">
+                            <div class="modal-header"> 
+                              <h5 class="modal-title">Alguns dos campings mais famosos e procurados</h5> 
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"></button> 
+                            </div> 
+                            <div class="modal-body"> 
+                              <p>Camping Cabreúva: Muito conhecido no interior paulista, com áreas arborizadas e estrutura completa para barracas e trailers (diárias de referência na região em torno de R$ 70).</p>
+                              <p>Camping Pedra do Sino: Clássico do litoral norte de São Paulo, cercado por Mata Atlântica e próximo a trilhas e praias (diárias de referência em torno de R$ 70).</p>
+                              <p>PachaMama: Um dos nomes mais emblemáticos da Chapada dos Veadeiros, muito buscado por aventureiros e viajantes ligados ao ecoturismo (diárias de referência em torno de R$ 70).</p>
+                              <p>Sítio Família Catarina: Destaque na serra catarinense, muito citado por campistas que buscam frio, montanhas e hospitalidade rural (diárias de referência em torno de R$ 40).</p>
+                              <p>Mundaí: Bastante conhecido no sul da Bahia para quem quer acampar perto do litoral e com estrutura de apoio (diárias de referência em torno de R$ 90).</p>
+                              <p>Camping Praia do Forte: Famoso no litoral norte baiano pela proximidade com praias, projetos ambientais e a vila (diárias de referência em torno de R$ 50).</p>  
+                            </div>
+                            <div class="modal-footer">  
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <div class="container my-5">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
